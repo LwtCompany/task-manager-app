@@ -1,0 +1,75 @@
+build
+node_modules
+package-lock.json
+.env
+
+
+.DS_store
+
+/.idea
+
+# Ignore dist folder
+/dist
+
+# Ignore node_modules folder
+/node_modules
+
+# Ignore config yml
+/deploy
+
+# Ignore all text files
+*.txt
+todo.md
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+node_modules
+
+
+# Ignore files related to API keys
+.env
+.env.dev
+.env.prod
+.prettierrc
+# Ignore SASS config files
+.sass-cache
+
+#Docker files
+docker-compose.yml
+
+
+#npm package-lock
+package-lock.json
+
+.stylelintignore
