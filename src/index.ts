@@ -28,7 +28,7 @@ export default class Server {
   const app: Application = express()
   const server: Server = new Server(app)
   app
-    .listen(server.PORT, server.HOST, function () {
+    .listen(server.PORT,  function () {
       console.log(
         `Server running at \x1b[33m http://${server.HOST}:${server.PORT}/\x1b[39m`
       )
